@@ -1,4 +1,4 @@
-import "./Questlog.css";
+import "./QuestLog.css";
 
 function QuestLog() {
   const quests = [
