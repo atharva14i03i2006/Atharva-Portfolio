@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./SystemAI.css";
+import "./SystemAi.css";
 
 function SystemAI() {
   const [message, setMessage] = useState("");

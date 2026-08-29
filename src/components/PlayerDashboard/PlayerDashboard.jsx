@@ -1,4 +1,4 @@
-import SystemAI from "../SystemAI/SystemAi";
+import SystemAI from "../SystemAI/SystemAI";
 import "./PlayerDashboard.css";
 import profile from "../../data/profile";
 
