@@ -1,0 +1,182 @@
+.projects {
+  min-height: 100vh;
+  padding: 100px 6%;
+  background: #050816;
+  color: white;
+}
+
+.projects-header {
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.projects-header p {
+  color: #7dd3fc;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+
+.projects-header h1 {
+  margin: 12px 0;
+  font-size: 42px;
+  letter-spacing: 5px;
+}
+
+.projects-header span {
+  color: #64748b;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.raid-board {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.raid-card {
+  padding: 26px;
+
+  background: rgba(15, 23, 42, 0.78);
+  border: 1px solid #172554;
+
+  transition: 0.25s ease;
+}
+
+.raid-card:hover {
+  transform: translateX(6px);
+  border-color: #7dd3fc;
+  box-shadow: 0 0 30px rgba(125, 211, 252, 0.1);
+}
+
+.raid-top {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+  padding-bottom: 20px;
+  border-bottom: 1px solid #172033;
+}
+
+.raid-rank {
+  width: 55px;
+  text-align: center;
+}
+
+.raid-rank span {
+  display: block;
+  color: #475569;
+  font-size: 8px;
+  letter-spacing: 2px;
+}
+
+.raid-rank strong {
+  display: block;
+  margin-top: 5px;
+
+  color: #7dd3fc;
+  font-size: 32px;
+}
+
+.raid-id {
+  color: #475569;
+  font-size: 9px;
+  letter-spacing: 2px;
+
+  flex: 1;
+}
+
+.raid-status {
+  color: #7dd3fc;
+  font-size: 9px;
+  letter-spacing: 1px;
+
+  padding: 7px 10px;
+  border: 1px solid #1e3a5f;
+}
+
+.raid-content {
+  padding: 25px 0;
+}
+
+.raid-content p {
+  margin: 0 0 8px;
+
+  color: #64748b;
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+
+.raid-content h2 {
+  margin: 0 0 12px;
+
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.raid-description {
+  display: block;
+
+  max-width: 800px;
+
+  color: #94a3b8;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.raid-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.raid-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.raid-tech span {
+  padding: 6px 9px;
+
+  color: #64748b;
+  background: #080f21;
+  border: 1px solid #172554;
+
+  font-size: 9px;
+}
+
+.raid-clear {
+  color: #7dd3fc;
+  font-size: 8px;
+  letter-spacing: 2px;
+  white-space: nowrap;
+}
+
+@media (max-width: 650px) {
+  .projects {
+    padding: 70px 20px;
+  }
+
+  .projects-header h1 {
+    font-size: 30px;
+  }
+
+  .raid-top {
+    gap: 12px;
+  }
+
+  .raid-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .raid-status {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,96 @@
+.player-status {
+  min-height: 100vh;
+  background: #050816;
+  color: white;
+  padding: 80px 8%;
+}
+
+.status-header {
+  margin-bottom: 40px;
+}
+
+.status-header p {
+  color: #7dd3fc;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.status-header h1 {
+  font-size: 38px;
+  letter-spacing: 4px;
+  margin-top: 10px;
+}
+
+.status-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  max-width: 1000px;
+}
+
+.player-info,
+.system-stats {
+  border: 1px solid #172554;
+  background: rgba(15, 23, 42, 0.7);
+  padding: 30px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 0;
+  border-bottom: 1px solid #172033;
+}
+
+.info-row span,
+.system-stats h2 {
+  color: #7dd3fc;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.info-row strong {
+  text-align: right;
+}
+
+.system-stats h2 {
+  margin-bottom: 35px;
+}
+
+.stat {
+  margin-bottom: 28px;
+}
+
+.stat > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.stat-bar {
+  height: 6px;
+  background: #172033;
+}
+
+.stat-fill {
+  height: 100%;
+  background: #7dd3fc;
+  box-shadow: 0 0 10px rgba(125, 211, 252, 0.5);
+}
+
+@media (max-width: 700px) {
+  .player-status {
+    padding: 60px 20px;
+  }
+
+  .status-header h1 {
+    font-size: 28px;
+  }
+
+  .status-panel {
+    grid-template-columns: 1fr;
+  }
+}

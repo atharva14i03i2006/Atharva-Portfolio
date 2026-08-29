@@ -1,0 +1,84 @@
+.system-boot {
+  min-height: 100vh;
+  background: #050816;
+  color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 24px;
+}
+
+.system-boot-content {
+  width: 100%;
+  max-width: 700px;
+}
+
+.system-label {
+  color: #7dd3fc;
+  font-size: 14px;
+  letter-spacing: 4px;
+  margin-bottom: 28px;
+}
+
+.system-boot h1 {
+  font-size: 48px;
+  letter-spacing: 6px;
+  margin: 0 0 24px;
+}
+
+.player-name {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-bottom: 18px;
+}
+
+.player-class {
+  font-size: 16px;
+  letter-spacing: 3px;
+  margin-bottom: 45px;
+}
+
+.player-class span {
+  color: #7dd3fc;
+}
+
+.enter-system-btn {
+  padding: 14px 32px;
+
+  background: transparent;
+  color: #7dd3fc;
+
+  border: 1px solid #7dd3fc;
+
+  font-size: 14px;
+  letter-spacing: 3px;
+
+  cursor: pointer;
+
+  transition: 0.25s ease;
+}
+
+.enter-system-btn:hover {
+  background: #7dd3fc;
+  color: #050816;
+  box-shadow: 0 0 25px rgba(125, 211, 252, 0.45);
+}
+
+@media (max-width: 600px) {
+  .system-boot h1 {
+    font-size: 32px;
+    letter-spacing: 4px;
+  }
+
+  .player-name {
+    font-size: 22px;
+  }
+
+  .player-class {
+    font-size: 13px;
+  }
+}
