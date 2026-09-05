@@ -3,7 +3,7 @@ import "./PlayerDashboard.css";
 import profile from "../../data/profile";
 
 import Inventory from "../Inventory/Inventory";
-import QuestLog from "../QuestLog/Questlog";
+import QuestLog from "../QuestLog/QuestLog";
 import ShadowArmy from "../ShadowArmy/ShadowArmy";
 import PlayerStatus from "../PlayerStatus/PlayerStatus";
 import Navbar from "../Navbar/Navbar";
