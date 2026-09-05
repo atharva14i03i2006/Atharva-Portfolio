@@ -23,7 +23,7 @@ function SystemAI() {
     setMessage("");
 
     try {
-      const response = await fetch("https://atharva-portfolio-mwpm.onrender.com/", {
+      const response = await fetch("https://atharva-portfolio-mwpm.onrender.com/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
